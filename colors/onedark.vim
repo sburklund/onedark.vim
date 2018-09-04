@@ -168,15 +168,15 @@ let g:terminal_ansi_colors = [
 
 call s:h("Comment", { "fg": s:comment_grey, "gui": "italic", "cterm": "italic" }) " any comment
 call s:h("Constant", { "fg": s:cyan }) " any constant
-call s:h("String", { "fg": s:green }) " a string constant: "this is a string"
+call s:h("String", { "fg": s:yellow }) " a string constant: "this is a string"
 call s:h("Character", { "fg": s:green }) " a character constant: 'c', '\n'
-call s:h("Number", { "fg": s:dark_yellow }) " a number constant: 234, 0xff
+call s:h("Number", { "fg": s:purple }) " a number constant: 234, 0xff
 call s:h("Boolean", { "fg": s:dark_yellow }) " a boolean constant: TRUE, false
-call s:h("Float", { "fg": s:dark_yellow }) " a floating point constant: 2.3e10
+call s:h("Float", { "fg": s:purple }) " a floating point constant: 2.3e10
 call s:h("Identifier", { "fg": s:red }) " any variable name
 call s:h("Function", { "fg": s:blue }) " function name (also: methods for classes)
-call s:h("Statement", { "fg": s:purple }) " any statement
-call s:h("Conditional", { "fg": s:purple }) " if, then, else, endif, switch, etc.
+call s:h("Statement", { "fg": s:cyan }) " any statement
+call s:h("Conditional", { "fg": s:dark_yellow }) " if, then, else, endif, switch, etc.
 call s:h("Repeat", { "fg": s:purple }) " for, do, while, etc.
 call s:h("Label", { "fg": s:purple }) " case, default, etc.
 call s:h("Operator", { "fg": s:purple }) " sizeof", "+", "*", etc.
